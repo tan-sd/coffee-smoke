@@ -15,5 +15,10 @@
     "lil-gui": "^0.19.1",
     "three": "^0.160.0",
     "vercel": "^33.5.3"
+  },
+    "overrides": {
+      "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
   }
 }
